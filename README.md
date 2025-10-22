@@ -1,6 +1,6 @@
-# Malleable Job Scheduling Strategies
+# Energy-aware Malleable Job Scheduling Strategies
 
-This repository proposes several malleable job scheduling strategies (see directory [scheduling_algorithms](scheduling_algorithms)) and evaluates them by running simulations via [ElastiSim](#acknowledgement).
+Energy-aware extension of malleable HPC scheduling strategies to reduce energy consumption, built on the validated Elastisim work of Posner et al., which provides a robust and reproducible foundation.
 
 ## Dependencies:
 - (U)Docker
@@ -115,18 +115,23 @@ python3 scripts/output_evaluation/evaluateOutput.py -s output_files/*
 - `-f` generates figures for the distribution of jobs among the nodes (plot node utilization) and for the job processing (plot jobs gantt)
 - `-s` generates statistics of the simulations.
 
-## Acknowledgement
 
-This repository heavily utilizes the software *Elastisim*, available at https://github.com/elastisim. We would like to express our sincere thanks to the developer Taylan Özden for his support.
+## Note on Third-Party Sources and Acknowledgements
+
+This project builds substantially on the work of Jonas Posner et al. and the *Elastisim* framework at https://github.com/elastisim. Additionally, concepts and/or code from other third-party sources have been incorporated. We thank the original authors and explicitly acknowledge these contributions below.
+
+## Notice
+
+This project is a derivative work. All trademarks, copyrights, and credits remain with the respective rights holders. Modifications and extensions have been made by Paul Schäfer and are documented in the project history.
+
+The primary focus of this derivative work is to extend the malleable job scheduling strategies with energy-awareness and evaluate their impact on HPC system energy consumption and efficiency.
 
 ## License
 
-This software is released under the terms of the [Eclipse Public License v2.0](LICENSE.txt), though it also uses third-party packages with their own licensing terms.
+This software is released under the terms of the Eclipse Public License v2.0, maintaining consistency with the original work by Jonas Posner et al. The software also uses third-party packages with their own licensing terms.
 
-## Publications
-
-- Jonas Posner, Fabian Hupfeld, and Patrick Finnerty. *Enhancing Supercomputer Performance with Malleable Job Scheduling
-  Strategies*. In Euro‐Par Parallel Processing, Workshop on Performance and Energy-efficiency in Concurrent and Distributed Systems (PECS), 2023. to appear.
+## Related Publications
+- Jonas Posner, Fabian Hupfeld, and Patrick Finnerty. Enhancing Supercomputer Performance with Malleable Job Scheduling Strategies. In Euro‐Par Parallel Processing, Workshop on Performance and Energy-efficiency in Concurrent and Distributed Systems (PECS), 2023.
   - Artefact: https://github.com/ProjectWagomu/ArtefactPECS23
 
 ## Contributors
@@ -136,3 +141,5 @@ In alphabetical order:
 - Patrick Finnerty
 - Fabian Hupfeld
 - Jonas Posner
+- Paul Schäfer (energy-aware extensions)
+
