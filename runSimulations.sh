@@ -46,6 +46,10 @@ submit_range=1
 num_cluster_nodes=32 #artificial only
 flops_per_cluster_node=1E12
 
+#energy params
+DO_ENERGY=0
+ENERGY_PARAMS=""
+
 
 #define scheduler files (Comment out definition to use all scheduling files in simulate/scheduling_algorithms/ that do not start with _)
 SCHEDULING_FILES=("average_agreement.py" "average_common_pool.py" "average_steal_agreement.py" "min_agreement.py"	"min_common_pool.py" "min_steal_agreement.py" "pref_agreement.py" "pref_common_pool.py" "pref_steal_agreement.py" "rigid_easy_backfill.py")
@@ -54,15 +58,20 @@ SCHEDULING_FILES=("average_agreement.py" "average_common_pool.py" "average_steal
 #local processor amount used
 MAX_PROCESSES=$(($(grep -c ^processor /proc/cpuinfo)/2))
 
-while getopts "hus:p:" OPTION; do
-	case "${OPTION}" in
-	h) echo "./runSimulations.sh -u (Run Simulation using UDocker) -s (Partition Name) Start Simulations using slurm -p (Max Processes)" ; exit;;
-	u) udocker=true;;
-	s) slurm=${OPTARG};;
-	p) MAX_PROCESSES=$((${OPTARG}));;
-	*) echo "Unknown Argument" ; exit 1;;
-	esac
+while getopts "hus:p:e:" OPTION; do
+    case "${OPTION}" in
+    h) echo "./runSimulations.sh -u (Run Simulation using UDocker) -s (Partition Name) Start Simulations using slurm -p (Max Processes) -e p_idle,p_peak,alpha (Estimate energy after simulations)" ; exit;;
+    u) udocker=true;;
+    s) slurm=${OPTARG};;
+    p) MAX_PROCESSES=$((${OPTARG}));;
+    e)
+        DO_ENERGY=1
+        ENERGY_PARAMS="$OPTARG"
+        ;;  # format: p_idle,p_peak,alpha (e.g. 100,250,1.5)
+    *) echo "Unknown Argument" ; exit 1;;
+    esac
 done
+
 
 #set number of processor per node to calculate node amount
 function set_partition_nodes() {
@@ -169,11 +178,42 @@ function runSimulations() {
 	fi
 }
 
+POWER_SCRIPT="$SCRIPT_FOLDER/output_evaluation/power_idle_dynamic.py"
+
+# parse energy parameters if provided
+if [ ! -z "$ENERGY_PARAMS" ]; then
+    IFS=',' read -r ENERGY_P_IDLE ENERGY_P_PEAK ENERGY_ALPHA <<< "$ENERGY_PARAMS"
+    if [ -z "$ENERGY_P_IDLE" ] || [ -z "$ENERGY_P_PEAK" ] || [ -z "$ENERGY_ALPHA" ]; then
+        echo "ERROR: -e requires p_idle,p_peak,alpha (e.g. -e 100,250,1.5)" ; exit 1
+    fi
+    # basic numeric check
+    re='^[0-9]+([.][0-9]+)?$'
+    if ! [[ $ENERGY_P_IDLE =~ $re && $ENERGY_P_PEAK =~ $re && $ENERGY_ALPHA =~ $re ]]; then
+        echo "ERROR: energy parameters must be numeric: p_idle,p_peak,alpha" ; exit 1
+    fi
+fi
+
 function evaluateOutput() {
-	if [[ ! -z $OUTPUT_DATA ]]; then
-		echo "Evaluating Output Data"
-		python3 -W ignore $EVALUATE_OUTPUT $EVALUATION_FLAGS "${OUTPUT_DATA[@]}"
-	fi
+    if [[ ! -z $OUTPUT_DATA ]]; then
+        echo "Evaluating Output Data"
+        python3 -W ignore $EVALUATE_OUTPUT $EVALUATION_FLAGS "${OUTPUT_DATA[@]}"
+        # optional energy approximation per output folder using node utilization traces
+		if [ "$DO_ENERGY" = "1" ]; then
+			echo "Energy-Analyse angefordert mit Parametern: $ENERGY_PARAMS"
+			echo "Starte Energy-Analyse ..."
+			# prefer project-local script
+			ENERGY_SCRIPT="$(dirname "$0")/scripts/energy_analysis.py"
+			if [ -x "$ENERGY_SCRIPT" ] || [ -f "$ENERGY_SCRIPT" ]; then
+				python3 "$ENERGY_SCRIPT" "$OUTPUT_DIR" "$ENERGY_PARAMS"
+				if [ $? -eq 0 ]; then
+					echo "Energy-Analyse abgeschlossen."
+				else
+					echo "Fehler: Energy-Analyse-Skript gab einen Fehler zurück."
+				fi
+			else
+				echo "Kein Energy-Analyse-Skript gefunden unter $ENERGY_SCRIPT — Energy-Analyse übersprungen."
+			fi
+		fi
 }
 
 function finish() {

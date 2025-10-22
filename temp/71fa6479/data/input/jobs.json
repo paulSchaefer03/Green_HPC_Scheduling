@@ -1,0 +1,5826 @@
+{
+    "jobs_generated": 431,
+    "total_time": 2592000,
+    "generation values": "{'seed': 'DefaultSeed', 'type_probabilities': {'RIGID': 50, 'MOLDABLE': 20, 'MALLEABLE': 30}, 'flops_range': range(10000000000000, 50000000000000000), 'node_range': range(1, 16), 'submit_range': range(0, 2332800), 'malleable_dividation_amount': 1000, 'dividation_split_time': 60, 'application_model': 'data/input/application_model.json', 'parallel_percentage': (0.95, 0.955, 0.96, 0.965, 0.97, 0.975, 0.98, 0.985, 0.99, 0.995), 'min_node_efficiency_threshold': 0.95, 'pref_node_efficiency_threshold': 0.8, 'max_node_efficiency_threshold': 0.5, 'scaling_formula': '(1/((1-parallel_percentage) + parallel_percentage/num_nodes))'}",
+    "jobs": [
+        {
+            "type": "RIGID",
+            "submit_time": 0,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2618080250722944e+16,
+                "num_nodes_pref": 8,
+                "id": 0
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 5499,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 491.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3581590983323144e+16,
+                "num_nodes_pref": 8,
+                "id": 1
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 6599,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3442494283834932e+16,
+                "num_nodes_pref": 8,
+                "id": 2
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 16600,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9519317410675866.0,
+                "num_nodes_pref": 4,
+                "id": 3
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 18947,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2961386497959196e+16,
+                "num_nodes_pref": 8,
+                "id": 4
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 22183,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 415.0,
+                "parallel_percentage": 0.95,
+                "flops": 9965152448528606.0,
+                "num_nodes_pref": 4,
+                "id": 5
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 26704,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 492.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3652647586562012e+16,
+                "num_nodes_pref": 8,
+                "id": 6
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 27765,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3593208283197110.5,
+                "num_nodes_pref": 2,
+                "id": 7
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 30528,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 8
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 38386,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3506189592158926.5,
+                "num_nodes_pref": 2,
+                "id": 9
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 45802,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 10
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 57046,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3692923873687704e+16,
+                "num_nodes_pref": 8,
+                "id": 11
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 58529,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 485.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.330760181267849e+16,
+                "num_nodes_pref": 8,
+                "id": 12
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 65677,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 375.0,
+                "parallel_percentage": 0.95,
+                "flops": 9014026508993096.0,
+                "num_nodes_pref": 4,
+                "id": 13
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 71906,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 418.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0036502175389144e+16,
+                "num_nodes_pref": 4,
+                "id": 14
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 76273,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 487.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.338803463495615e+16,
+                "num_nodes_pref": 8,
+                "id": 15
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 77060,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9691403524951554.0,
+                "num_nodes_pref": 4,
+                "id": 16
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 78368,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3768259380457790.5,
+                "num_nodes_pref": 2,
+                "id": 17
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 82515,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 18
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 85163,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 287.0,
+                "parallel_percentage": 0.95,
+                "flops": 3449368369795900.5,
+                "num_nodes_pref": 2,
+                "id": 19
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 87497,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 405.0,
+                "parallel_percentage": 0.95,
+                "flops": 9733622896893558.0,
+                "num_nodes_pref": 4,
+                "id": 20
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 88209,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 2255213768659486.0,
+                "num_nodes_pref": 2,
+                "id": 21
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 107148,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 2326018620522408.5,
+                "num_nodes_pref": 2,
+                "id": 22
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 111267,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 458.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.199549155136609e+16,
+                "num_nodes_pref": 8,
+                "id": 23
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 114129,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 210.0,
+                "parallel_percentage": 0.95,
+                "flops": 2526418275902408.0,
+                "num_nodes_pref": 2,
+                "id": 24
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 149051,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9987970586643720.0,
+                "num_nodes_pref": 4,
+                "id": 25
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 149431,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 121.0,
+                "parallel_percentage": 0.95,
+                "flops": 731103817617509.4,
+                "num_nodes_pref": 1,
+                "id": 26
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 159850,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 502.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.411869022585043e+16,
+                "num_nodes_pref": 8,
+                "id": 27
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 166593,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 487.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.341379821813438e+16,
+                "num_nodes_pref": 8,
+                "id": 28
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 167297,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 429.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0297884453902924e+16,
+                "num_nodes_pref": 4,
+                "id": 29
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 173023,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0220856923658868e+16,
+                "num_nodes_pref": 4,
+                "id": 30
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 182464,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 479.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2996540876842864e+16,
+                "num_nodes_pref": 8,
+                "id": 31
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 186359,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 437.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0490010426586692e+16,
+                "num_nodes_pref": 4,
+                "id": 32
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 188314,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 489.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3490856621431828e+16,
+                "num_nodes_pref": 8,
+                "id": 33
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 198064,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.4041749197045492e+16,
+                "num_nodes_pref": 8,
+                "id": 34
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 203985,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 416.0,
+                "parallel_percentage": 0.95,
+                "flops": 9984641513474570.0,
+                "num_nodes_pref": 4,
+                "id": 35
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 205910,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.321069028646061e+16,
+                "num_nodes_pref": 8,
+                "id": 36
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 206281,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 37
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 209290,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0522557238029188e+16,
+                "num_nodes_pref": 4,
+                "id": 38
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 212815,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 496.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.382896508815989e+16,
+                "num_nodes_pref": 8,
+                "id": 39
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 218353,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 183.0,
+                "parallel_percentage": 0.95,
+                "flops": 1102071946744090.0,
+                "num_nodes_pref": 1,
+                "id": 40
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 222378,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 295.0,
+                "parallel_percentage": 0.95,
+                "flops": 3542740125728401.0,
+                "num_nodes_pref": 2,
+                "id": 41
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 247698,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 409.0,
+                "parallel_percentage": 0.95,
+                "flops": 9821304622050822.0,
+                "num_nodes_pref": 4,
+                "id": 42
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 248670,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3198303326147856e+16,
+                "num_nodes_pref": 8,
+                "id": 43
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 253619,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 487.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3388686255869664e+16,
+                "num_nodes_pref": 8,
+                "id": 44
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 255087,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 435.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0456569515469832e+16,
+                "num_nodes_pref": 4,
+                "id": 45
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 270482,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2458577979927404e+16,
+                "num_nodes_pref": 8,
+                "id": 46
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 271468,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.349052532124006e+16,
+                "num_nodes_pref": 8,
+                "id": 47
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 287841,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 492.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3625312305948704e+16,
+                "num_nodes_pref": 8,
+                "id": 48
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 294702,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2792553357682612e+16,
+                "num_nodes_pref": 8,
+                "id": 49
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 311436,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 443.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0647526494574836e+16,
+                "num_nodes_pref": 4,
+                "id": 50
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 315057,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 486.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3340904984459144e+16,
+                "num_nodes_pref": 8,
+                "id": 51
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 318075,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 462.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.221055658265174e+16,
+                "num_nodes_pref": 8,
+                "id": 52
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 320501,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 481.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.311785855870461e+16,
+                "num_nodes_pref": 8,
+                "id": 53
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 331980,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 490.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.354506651898432e+16,
+                "num_nodes_pref": 8,
+                "id": 54
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 332007,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3642250053505944e+16,
+                "num_nodes_pref": 8,
+                "id": 55
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 339537,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 4112904910101220.5,
+                "num_nodes_pref": 2,
+                "id": 56
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 343594,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 492.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3624963530076372e+16,
+                "num_nodes_pref": 8,
+                "id": 57
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 355471,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 34.0,
+                "parallel_percentage": 0.95,
+                "flops": 208238152825350.66,
+                "num_nodes_pref": 1,
+                "id": 58
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 358708,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 422.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0133446004933802e+16,
+                "num_nodes_pref": 4,
+                "id": 59
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 366702,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.333855225501842e+16,
+                "num_nodes_pref": 8,
+                "id": 60
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 366846,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 8965120649936753.0,
+                "num_nodes_pref": 4,
+                "id": 61
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 385812,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0053424150130052e+16,
+                "num_nodes_pref": 4,
+                "id": 62
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 390291,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3832387530488880.0,
+                "num_nodes_pref": 2,
+                "id": 63
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 392968,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 64.0,
+                "parallel_percentage": 0.95,
+                "flops": 386628436395813.94,
+                "num_nodes_pref": 1,
+                "id": 64
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 394942,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 484.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3257132855903436e+16,
+                "num_nodes_pref": 8,
+                "id": 65
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 405704,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 465.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.1180402948889264e+16,
+                "num_nodes_pref": 4,
+                "id": 66
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 407781,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 412.0,
+                "parallel_percentage": 0.95,
+                "flops": 9905553663410010.0,
+                "num_nodes_pref": 4,
+                "id": 67
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 431221,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.326222609205895e+16,
+                "num_nodes_pref": 8,
+                "id": 68
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 431434,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3564589387880068e+16,
+                "num_nodes_pref": 8,
+                "id": 69
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 431622,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 481.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3100801739710764e+16,
+                "num_nodes_pref": 8,
+                "id": 70
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 432657,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.045151943375565e+16,
+                "num_nodes_pref": 4,
+                "id": 71
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 441065,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3373109740055196e+16,
+                "num_nodes_pref": 8,
+                "id": 72
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 444889,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 466.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2400654837741004e+16,
+                "num_nodes_pref": 8,
+                "id": 73
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 455664,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.259063612985994e+16,
+                "num_nodes_pref": 8,
+                "id": 74
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 458047,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3444962964157756e+16,
+                "num_nodes_pref": 8,
+                "id": 75
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 465086,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3266061383377704e+16,
+                "num_nodes_pref": 8,
+                "id": 76
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 470795,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3785459604127244e+16,
+                "num_nodes_pref": 8,
+                "id": 77
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 470956,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 476.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2856655484580932e+16,
+                "num_nodes_pref": 8,
+                "id": 78
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 481250,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9772629749564322.0,
+                "num_nodes_pref": 4,
+                "id": 79
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 482558,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 484.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3238505130010424e+16,
+                "num_nodes_pref": 8,
+                "id": 80
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 494045,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0015499029479886e+16,
+                "num_nodes_pref": 4,
+                "id": 81
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 508870,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2804682594401572e+16,
+                "num_nodes_pref": 8,
+                "id": 82
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 510881,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2873050087762456e+16,
+                "num_nodes_pref": 8,
+                "id": 83
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 510956,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.303880258515308e+16,
+                "num_nodes_pref": 8,
+                "id": 84
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 512973,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 481.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.311039190947877e+16,
+                "num_nodes_pref": 8,
+                "id": 85
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 514709,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.427225530893366e+16,
+                "num_nodes_pref": 8,
+                "id": 86
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 515631,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.327440739463132e+16,
+                "num_nodes_pref": 8,
+                "id": 87
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 521287,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.326900171725036e+16,
+                "num_nodes_pref": 8,
+                "id": 88
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 534376,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 493.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3677716154938388e+16,
+                "num_nodes_pref": 8,
+                "id": 89
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 536109,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 90
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 536571,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 523.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.5119833841965596e+16,
+                "num_nodes_pref": 8,
+                "id": 91
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 544564,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 490.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3553833677474572e+16,
+                "num_nodes_pref": 8,
+                "id": 92
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 556443,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9718814274868702.0,
+                "num_nodes_pref": 4,
+                "id": 93
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 558672,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0174485850691536e+16,
+                "num_nodes_pref": 4,
+                "id": 94
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 569291,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 95
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 572222,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3791120027558044e+16,
+                "num_nodes_pref": 8,
+                "id": 96
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 580868,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.319280489736113e+16,
+                "num_nodes_pref": 8,
+                "id": 97
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 588942,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 362.0,
+                "parallel_percentage": 0.95,
+                "flops": 8689440652955921.0,
+                "num_nodes_pref": 4,
+                "id": 98
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 593362,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 342.0,
+                "parallel_percentage": 0.95,
+                "flops": 4110762005302851.5,
+                "num_nodes_pref": 2,
+                "id": 99
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 603051,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 491.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3579238575578212e+16,
+                "num_nodes_pref": 8,
+                "id": 100
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 606919,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 491.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3573322756027884e+16,
+                "num_nodes_pref": 8,
+                "id": 101
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 609836,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2899189575653316e+16,
+                "num_nodes_pref": 8,
+                "id": 102
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 611871,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3242691668018656.0,
+                "num_nodes_pref": 2,
+                "id": 103
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 616055,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.318694045598996e+16,
+                "num_nodes_pref": 8,
+                "id": 104
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 620363,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 475.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2842057827702532e+16,
+                "num_nodes_pref": 8,
+                "id": 105
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 623217,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.067186009999045e+16,
+                "num_nodes_pref": 4,
+                "id": 106
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 626710,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 304.0,
+                "parallel_percentage": 0.95,
+                "flops": 3659024400187048.0,
+                "num_nodes_pref": 2,
+                "id": 107
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 628627,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 479.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2994707871681064e+16,
+                "num_nodes_pref": 8,
+                "id": 108
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 633220,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 238.0,
+                "parallel_percentage": 0.95,
+                "flops": 2864165606892677.5,
+                "num_nodes_pref": 2,
+                "id": 109
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 638637,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 428.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0286348413269496e+16,
+                "num_nodes_pref": 4,
+                "id": 110
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 640082,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9901547056529574.0,
+                "num_nodes_pref": 4,
+                "id": 111
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 646456,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 411.0,
+                "parallel_percentage": 0.95,
+                "flops": 9887631358602202.0,
+                "num_nodes_pref": 4,
+                "id": 112
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 652680,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 491.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.360784971834479e+16,
+                "num_nodes_pref": 8,
+                "id": 113
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 655892,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.38376876116035e+16,
+                "num_nodes_pref": 8,
+                "id": 114
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 657842,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 495.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3785397855531428e+16,
+                "num_nodes_pref": 8,
+                "id": 115
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 657884,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 423.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0170081179264184e+16,
+                "num_nodes_pref": 4,
+                "id": 116
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 664509,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 388.0,
+                "parallel_percentage": 0.95,
+                "flops": 9314066643906118.0,
+                "num_nodes_pref": 4,
+                "id": 117
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 665834,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 118
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 672353,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3184243030642576e+16,
+                "num_nodes_pref": 8,
+                "id": 119
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 673327,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.4472707644436492e+16,
+                "num_nodes_pref": 8,
+                "id": 120
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 686221,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 485.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.329944021241407e+16,
+                "num_nodes_pref": 8,
+                "id": 121
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 690503,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2891246717538096e+16,
+                "num_nodes_pref": 8,
+                "id": 122
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 692267,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 4.0,
+                "parallel_percentage": 0.95,
+                "flops": 25573320073875.14,
+                "num_nodes_pref": 1,
+                "id": 123
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 696509,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.4009210763756604e+16,
+                "num_nodes_pref": 8,
+                "id": 124
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 705691,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 417.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0026209519401912e+16,
+                "num_nodes_pref": 4,
+                "id": 125
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 707579,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 504.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.4228623230385692e+16,
+                "num_nodes_pref": 8,
+                "id": 126
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 710127,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3594507549122840.5,
+                "num_nodes_pref": 2,
+                "id": 127
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 710485,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 479.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3033956344253044e+16,
+                "num_nodes_pref": 8,
+                "id": 128
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 718061,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 495.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3797199712468464e+16,
+                "num_nodes_pref": 8,
+                "id": 129
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 720798,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 506.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.432075229813563e+16,
+                "num_nodes_pref": 8,
+                "id": 130
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 724642,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 501.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.4083752194929388e+16,
+                "num_nodes_pref": 8,
+                "id": 131
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 725204,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 396.0,
+                "parallel_percentage": 0.95,
+                "flops": 9518960945837756.0,
+                "num_nodes_pref": 4,
+                "id": 132
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 728552,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 470.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2597835159685536e+16,
+                "num_nodes_pref": 8,
+                "id": 133
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 735817,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0011384885737712e+16,
+                "num_nodes_pref": 4,
+                "id": 134
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 747548,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 135
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 749403,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 484.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3254467952124064e+16,
+                "num_nodes_pref": 8,
+                "id": 136
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 752692,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9934955170487064.0,
+                "num_nodes_pref": 4,
+                "id": 137
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 760424,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 418.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.004476621631359e+16,
+                "num_nodes_pref": 4,
+                "id": 138
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 767737,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9769176974909536.0,
+                "num_nodes_pref": 4,
+                "id": 139
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 772954,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3317778410494376e+16,
+                "num_nodes_pref": 8,
+                "id": 140
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 777429,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 471.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.261101234552221e+16,
+                "num_nodes_pref": 8,
+                "id": 141
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 782804,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3901554162540807.0,
+                "num_nodes_pref": 2,
+                "id": 142
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 785218,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3224927309232228e+16,
+                "num_nodes_pref": 8,
+                "id": 143
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 789925,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0324791074308768e+16,
+                "num_nodes_pref": 4,
+                "id": 144
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 795187,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 431.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0367326826514078e+16,
+                "num_nodes_pref": 4,
+                "id": 145
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 805251,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 146
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 806261,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 315.0,
+                "parallel_percentage": 0.95,
+                "flops": 3785903300075242.0,
+                "num_nodes_pref": 2,
+                "id": 147
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 817639,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 8936777477590130.0,
+                "num_nodes_pref": 4,
+                "id": 148
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 824743,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2541695660042956e+16,
+                "num_nodes_pref": 8,
+                "id": 149
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 827513,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3549900684504384e+16,
+                "num_nodes_pref": 8,
+                "id": 150
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 831161,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3972855567301052e+16,
+                "num_nodes_pref": 8,
+                "id": 151
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 846105,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 485.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3297724358417896e+16,
+                "num_nodes_pref": 8,
+                "id": 152
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 847427,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3195448282427628e+16,
+                "num_nodes_pref": 8,
+                "id": 153
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 847703,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 432.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.03717084789791e+16,
+                "num_nodes_pref": 4,
+                "id": 154
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 851476,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 155
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 852187,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 480.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.304802211857329e+16,
+                "num_nodes_pref": 8,
+                "id": 156
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 855728,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 422.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.013443108939126e+16,
+                "num_nodes_pref": 4,
+                "id": 157
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 858964,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0981333989637652e+16,
+                "num_nodes_pref": 4,
+                "id": 158
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 862102,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 488.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3426728541234164e+16,
+                "num_nodes_pref": 8,
+                "id": 159
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 862139,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 230.0,
+                "parallel_percentage": 0.95,
+                "flops": 2770040825584894.0,
+                "num_nodes_pref": 2,
+                "id": 160
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 876846,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 505.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.426169004932523e+16,
+                "num_nodes_pref": 8,
+                "id": 161
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 884243,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 498.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.391099282989538e+16,
+                "num_nodes_pref": 8,
+                "id": 162
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 886648,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 163
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 900830,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 464.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2292634131220104e+16,
+                "num_nodes_pref": 8,
+                "id": 164
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 904264,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 479.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.30082936167158e+16,
+                "num_nodes_pref": 8,
+                "id": 165
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 906203,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 497.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3859515142442148e+16,
+                "num_nodes_pref": 8,
+                "id": 166
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 910567,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 167
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 918816,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 507.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.4362615652258732e+16,
+                "num_nodes_pref": 8,
+                "id": 168
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 920540,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3115664831074644e+16,
+                "num_nodes_pref": 8,
+                "id": 169
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 921166,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3378782210964132e+16,
+                "num_nodes_pref": 8,
+                "id": 170
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 921774,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 264020823148323.2,
+                "num_nodes_pref": 1,
+                "id": 171
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 929119,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.374513687468299e+16,
+                "num_nodes_pref": 8,
+                "id": 172
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 931168,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 481.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3128353407540468e+16,
+                "num_nodes_pref": 8,
+                "id": 173
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 946091,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 428.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0280413516311104e+16,
+                "num_nodes_pref": 4,
+                "id": 174
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 954338,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 509.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.4468364316260252e+16,
+                "num_nodes_pref": 8,
+                "id": 175
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 955995,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 52.0,
+                "parallel_percentage": 0.95,
+                "flops": 317500084355228.7,
+                "num_nodes_pref": 1,
+                "id": 176
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 959977,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 496.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3843989079273908e+16,
+                "num_nodes_pref": 8,
+                "id": 177
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 981758,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.350620946512172e+16,
+                "num_nodes_pref": 8,
+                "id": 178
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 982062,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9325017957810992.0,
+                "num_nodes_pref": 4,
+                "id": 179
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 989100,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 4205748282476490.0,
+                "num_nodes_pref": 2,
+                "id": 180
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 990319,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3308953958437956e+16,
+                "num_nodes_pref": 8,
+                "id": 181
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 992830,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.384648461431818e+16,
+                "num_nodes_pref": 8,
+                "id": 182
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 998792,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 452.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0870833757837072e+16,
+                "num_nodes_pref": 4,
+                "id": 183
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1014491,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2559191973815524e+16,
+                "num_nodes_pref": 8,
+                "id": 184
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1017200,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 482.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.314671210368467e+16,
+                "num_nodes_pref": 8,
+                "id": 185
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1024030,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3738363053030484e+16,
+                "num_nodes_pref": 8,
+                "id": 186
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1026949,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 499.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3990329580473616e+16,
+                "num_nodes_pref": 8,
+                "id": 187
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1032105,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3730440927885304e+16,
+                "num_nodes_pref": 8,
+                "id": 188
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1042684,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0851441848007944e+16,
+                "num_nodes_pref": 4,
+                "id": 189
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1044756,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 449.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0788895567000988e+16,
+                "num_nodes_pref": 4,
+                "id": 190
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1045645,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 191
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1049398,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3539862559218048.0,
+                "num_nodes_pref": 2,
+                "id": 192
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1066402,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3389249711190268e+16,
+                "num_nodes_pref": 8,
+                "id": 193
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1074457,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.284115701080076e+16,
+                "num_nodes_pref": 8,
+                "id": 194
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1077459,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2499505203828428e+16,
+                "num_nodes_pref": 8,
+                "id": 195
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1087020,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.369245024919722e+16,
+                "num_nodes_pref": 8,
+                "id": 196
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1090592,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3184132621690796e+16,
+                "num_nodes_pref": 8,
+                "id": 197
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1092318,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 415.0,
+                "parallel_percentage": 0.95,
+                "flops": 9970027016700302.0,
+                "num_nodes_pref": 4,
+                "id": 198
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1099047,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 438.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0519614436832922e+16,
+                "num_nodes_pref": 4,
+                "id": 199
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1102417,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 263.0,
+                "parallel_percentage": 0.95,
+                "flops": 3161248509572945.0,
+                "num_nodes_pref": 2,
+                "id": 200
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1103828,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 492.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3629451787357924e+16,
+                "num_nodes_pref": 8,
+                "id": 201
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1105595,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9638148440011162.0,
+                "num_nodes_pref": 4,
+                "id": 202
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1108556,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.386045048254658e+16,
+                "num_nodes_pref": 8,
+                "id": 203
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1112606,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9685057542680524.0,
+                "num_nodes_pref": 4,
+                "id": 204
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1120462,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.257011371158936e+16,
+                "num_nodes_pref": 8,
+                "id": 205
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1144576,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9853378305410606.0,
+                "num_nodes_pref": 4,
+                "id": 206
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1151402,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 486.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3338284712135576e+16,
+                "num_nodes_pref": 8,
+                "id": 207
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1152495,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.4248225856403616e+16,
+                "num_nodes_pref": 8,
+                "id": 208
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1159696,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 392.0,
+                "parallel_percentage": 0.95,
+                "flops": 9428567508931722.0,
+                "num_nodes_pref": 4,
+                "id": 209
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1170398,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3781149927134828e+16,
+                "num_nodes_pref": 8,
+                "id": 210
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1173388,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9884720976296290.0,
+                "num_nodes_pref": 4,
+                "id": 211
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1178616,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3060839034716776.0,
+                "num_nodes_pref": 2,
+                "id": 212
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1180910,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.199994567366699e+16,
+                "num_nodes_pref": 8,
+                "id": 213
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1182412,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 476.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2856390599609616e+16,
+                "num_nodes_pref": 8,
+                "id": 214
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1195418,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 478.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.29861092561361e+16,
+                "num_nodes_pref": 8,
+                "id": 215
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1197331,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0096339558072008e+16,
+                "num_nodes_pref": 4,
+                "id": 216
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1205933,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0237943940858954e+16,
+                "num_nodes_pref": 4,
+                "id": 217
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1210734,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3624985898839784.0,
+                "num_nodes_pref": 2,
+                "id": 218
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1221334,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9776499819405904.0,
+                "num_nodes_pref": 4,
+                "id": 219
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1224786,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 220
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1227296,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3684275325889016e+16,
+                "num_nodes_pref": 8,
+                "id": 221
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1230742,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 222
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1235407,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.320255141682536e+16,
+                "num_nodes_pref": 8,
+                "id": 223
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1236697,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9703238264497982.0,
+                "num_nodes_pref": 4,
+                "id": 224
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1249214,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3380404016872468e+16,
+                "num_nodes_pref": 8,
+                "id": 225
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1259763,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 501.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.408849444930186e+16,
+                "num_nodes_pref": 8,
+                "id": 226
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1273240,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 376.0,
+                "parallel_percentage": 0.95,
+                "flops": 9036315768115816.0,
+                "num_nodes_pref": 4,
+                "id": 227
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1276562,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 99.0,
+                "parallel_percentage": 0.95,
+                "flops": 597426137750220.9,
+                "num_nodes_pref": 1,
+                "id": 228
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1285978,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 475.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.280649039802568e+16,
+                "num_nodes_pref": 8,
+                "id": 229
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1295553,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3727436253789381.5,
+                "num_nodes_pref": 2,
+                "id": 230
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1310422,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3113201110362396e+16,
+                "num_nodes_pref": 8,
+                "id": 231
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1315832,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.288423923861816e+16,
+                "num_nodes_pref": 8,
+                "id": 232
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1318426,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3372523827934361.0,
+                "num_nodes_pref": 2,
+                "id": 233
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1319015,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.333008878003327e+16,
+                "num_nodes_pref": 8,
+                "id": 234
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1321009,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 499.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3987083182286536e+16,
+                "num_nodes_pref": 8,
+                "id": 235
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1328962,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 215244363010761.16,
+                "num_nodes_pref": 1,
+                "id": 236
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1330443,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 494.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.375033478683049e+16,
+                "num_nodes_pref": 8,
+                "id": 237
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1332090,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 8997073242775957.0,
+                "num_nodes_pref": 4,
+                "id": 238
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1339576,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 406.0,
+                "parallel_percentage": 0.95,
+                "flops": 9750893990245944.0,
+                "num_nodes_pref": 4,
+                "id": 239
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1347057,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 420.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0081819459620366e+16,
+                "num_nodes_pref": 4,
+                "id": 240
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1348386,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3751047701476424e+16,
+                "num_nodes_pref": 8,
+                "id": 241
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1355596,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9653355036609274.0,
+                "num_nodes_pref": 4,
+                "id": 242
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1355666,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 418.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0038915672884916e+16,
+                "num_nodes_pref": 4,
+                "id": 243
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1356420,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3713400267512028e+16,
+                "num_nodes_pref": 8,
+                "id": 244
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1357381,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.315186986903195e+16,
+                "num_nodes_pref": 8,
+                "id": 245
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1358646,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 383.0,
+                "parallel_percentage": 0.95,
+                "flops": 4602931352888455.0,
+                "num_nodes_pref": 2,
+                "id": 246
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1359374,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.339326317031365e+16,
+                "num_nodes_pref": 8,
+                "id": 247
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1361957,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2748431881122316e+16,
+                "num_nodes_pref": 8,
+                "id": 248
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1364985,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 423.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0174365723601068e+16,
+                "num_nodes_pref": 4,
+                "id": 249
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1385856,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 389.0,
+                "parallel_percentage": 0.95,
+                "flops": 9340990950018674.0,
+                "num_nodes_pref": 4,
+                "id": 250
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1386596,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 439.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0551539579636304e+16,
+                "num_nodes_pref": 4,
+                "id": 251
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1390275,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3701681954198124e+16,
+                "num_nodes_pref": 8,
+                "id": 252
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1397582,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 494.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3748224474584924e+16,
+                "num_nodes_pref": 8,
+                "id": 253
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1418162,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.310836610910841e+16,
+                "num_nodes_pref": 8,
+                "id": 254
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1418467,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0491717029646818e+16,
+                "num_nodes_pref": 4,
+                "id": 255
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1432406,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 480.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.304420447306689e+16,
+                "num_nodes_pref": 8,
+                "id": 256
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1436603,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.388350407599208e+16,
+                "num_nodes_pref": 8,
+                "id": 257
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1436702,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 481.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3112887224174044e+16,
+                "num_nodes_pref": 8,
+                "id": 258
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1444280,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 479.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.30081919545997e+16,
+                "num_nodes_pref": 8,
+                "id": 259
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1456933,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 377.0,
+                "parallel_percentage": 0.95,
+                "flops": 9062353957142416.0,
+                "num_nodes_pref": 4,
+                "id": 260
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1460414,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 300.0,
+                "parallel_percentage": 0.95,
+                "flops": 3606779700199067.5,
+                "num_nodes_pref": 2,
+                "id": 261
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1461613,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.4193284283751624e+16,
+                "num_nodes_pref": 8,
+                "id": 262
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1478387,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9808442048476416.0,
+                "num_nodes_pref": 4,
+                "id": 263
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1486873,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.41888304036093e+16,
+                "num_nodes_pref": 8,
+                "id": 264
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1489934,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 442.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0616497498152092e+16,
+                "num_nodes_pref": 4,
+                "id": 265
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1503847,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.298039484398943e+16,
+                "num_nodes_pref": 8,
+                "id": 266
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1506387,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 289.0,
+                "parallel_percentage": 0.95,
+                "flops": 3469466063805080.5,
+                "num_nodes_pref": 2,
+                "id": 267
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1509884,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 470.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.258895837267752e+16,
+                "num_nodes_pref": 8,
+                "id": 268
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1511778,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3197696795444498.0,
+                "num_nodes_pref": 2,
+                "id": 269
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1513276,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 270
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1513528,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9751843827255518.0,
+                "num_nodes_pref": 4,
+                "id": 271
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1513932,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 433.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0409815261184586e+16,
+                "num_nodes_pref": 4,
+                "id": 272
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1519559,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.320993276214964e+16,
+                "num_nodes_pref": 8,
+                "id": 273
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1522853,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 497.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.388320001750496e+16,
+                "num_nodes_pref": 8,
+                "id": 274
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1523534,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 456.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0951475463613706e+16,
+                "num_nodes_pref": 4,
+                "id": 275
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1530759,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.4263422926960636e+16,
+                "num_nodes_pref": 8,
+                "id": 276
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1538100,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.376776781245045e+16,
+                "num_nodes_pref": 8,
+                "id": 277
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1538544,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3323268863720096e+16,
+                "num_nodes_pref": 8,
+                "id": 278
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1541714,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9336541341367370.0,
+                "num_nodes_pref": 4,
+                "id": 279
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1541952,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.312426788014552e+16,
+                "num_nodes_pref": 8,
+                "id": 280
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1542617,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 281
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1553907,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3348831891087715.0,
+                "num_nodes_pref": 2,
+                "id": 282
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1556669,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.278244252880157e+16,
+                "num_nodes_pref": 8,
+                "id": 283
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1558988,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2620070022460416e+16,
+                "num_nodes_pref": 8,
+                "id": 284
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1564998,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.365606929149512e+16,
+                "num_nodes_pref": 8,
+                "id": 285
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1578132,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0010632472405482e+16,
+                "num_nodes_pref": 4,
+                "id": 286
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1578449,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3696101661288256e+16,
+                "num_nodes_pref": 8,
+                "id": 287
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1589180,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2757783181090028e+16,
+                "num_nodes_pref": 8,
+                "id": 288
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1596177,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 486.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3340842488238492e+16,
+                "num_nodes_pref": 8,
+                "id": 289
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1597847,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3117948125318113.0,
+                "num_nodes_pref": 2,
+                "id": 290
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1601196,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 437.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.050087705384502e+16,
+                "num_nodes_pref": 4,
+                "id": 291
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1601983,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3494675271944283.0,
+                "num_nodes_pref": 2,
+                "id": 292
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1614489,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 408.0,
+                "parallel_percentage": 0.95,
+                "flops": 9810018583851762.0,
+                "num_nodes_pref": 4,
+                "id": 293
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1635813,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 490.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.354334635532826e+16,
+                "num_nodes_pref": 8,
+                "id": 294
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1637213,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9743123969844656.0,
+                "num_nodes_pref": 4,
+                "id": 295
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1638361,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3363507558272039.5,
+                "num_nodes_pref": 2,
+                "id": 296
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1642251,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 309.0,
+                "parallel_percentage": 0.95,
+                "flops": 3714995032164643.0,
+                "num_nodes_pref": 2,
+                "id": 297
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1647743,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.328285234428351e+16,
+                "num_nodes_pref": 8,
+                "id": 298
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1648805,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 398.0,
+                "parallel_percentage": 0.95,
+                "flops": 9568930255926794.0,
+                "num_nodes_pref": 4,
+                "id": 299
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1654245,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 494.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.375895707929729e+16,
+                "num_nodes_pref": 8,
+                "id": 300
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1654391,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 486.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3351787161428784e+16,
+                "num_nodes_pref": 8,
+                "id": 301
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1662149,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0161313647118848e+16,
+                "num_nodes_pref": 4,
+                "id": 302
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1670144,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9989930377589908.0,
+                "num_nodes_pref": 4,
+                "id": 303
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1671995,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2923719877794852e+16,
+                "num_nodes_pref": 8,
+                "id": 304
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1688973,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2944181879443404e+16,
+                "num_nodes_pref": 8,
+                "id": 305
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1691049,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 494.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.37472040538296e+16,
+                "num_nodes_pref": 8,
+                "id": 306
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1693225,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9761957904611964.0,
+                "num_nodes_pref": 4,
+                "id": 307
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1694995,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 425.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.020493614150878e+16,
+                "num_nodes_pref": 4,
+                "id": 308
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1699547,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 415.0,
+                "parallel_percentage": 0.95,
+                "flops": 9966217033495422.0,
+                "num_nodes_pref": 4,
+                "id": 309
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1700523,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 428.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0290981689932264e+16,
+                "num_nodes_pref": 4,
+                "id": 310
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1706802,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0377051101488002e+16,
+                "num_nodes_pref": 4,
+                "id": 311
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1708068,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.403324811207685e+16,
+                "num_nodes_pref": 8,
+                "id": 312
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1714283,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 492.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3632980660932624e+16,
+                "num_nodes_pref": 8,
+                "id": 313
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1718411,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 299504723421219.06,
+                "num_nodes_pref": 1,
+                "id": 314
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1720323,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3432640506883108e+16,
+                "num_nodes_pref": 8,
+                "id": 315
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1730310,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2865504808114504e+16,
+                "num_nodes_pref": 8,
+                "id": 316
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1742479,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 488.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.343054911356206e+16,
+                "num_nodes_pref": 8,
+                "id": 317
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1746166,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 482.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3145544821143404e+16,
+                "num_nodes_pref": 8,
+                "id": 318
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1761211,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 481.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3124448358406624e+16,
+                "num_nodes_pref": 8,
+                "id": 319
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1765333,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3211280136848584e+16,
+                "num_nodes_pref": 8,
+                "id": 320
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1767890,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 491.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3591347062862616e+16,
+                "num_nodes_pref": 8,
+                "id": 321
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1769636,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9187154188710694.0,
+                "num_nodes_pref": 4,
+                "id": 322
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1775940,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 477.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.293846943104396e+16,
+                "num_nodes_pref": 8,
+                "id": 323
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1777208,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 2997454540859614.5,
+                "num_nodes_pref": 2,
+                "id": 324
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1778951,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 482.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3166392912237212e+16,
+                "num_nodes_pref": 8,
+                "id": 325
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1779270,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 338.0,
+                "parallel_percentage": 0.95,
+                "flops": 4066620541616717.0,
+                "num_nodes_pref": 2,
+                "id": 326
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1782306,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 484.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.323214239148239e+16,
+                "num_nodes_pref": 8,
+                "id": 327
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1788404,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.04919988470053e+16,
+                "num_nodes_pref": 4,
+                "id": 328
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1800274,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 2983309437264727.5,
+                "num_nodes_pref": 2,
+                "id": 329
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1801647,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0189104784661586e+16,
+                "num_nodes_pref": 4,
+                "id": 330
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1803442,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 429.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.029868293527317e+16,
+                "num_nodes_pref": 4,
+                "id": 331
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1805903,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 488.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3428359312346788e+16,
+                "num_nodes_pref": 8,
+                "id": 332
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1806979,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.318790164046421e+16,
+                "num_nodes_pref": 8,
+                "id": 333
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1807563,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2743554363539824e+16,
+                "num_nodes_pref": 8,
+                "id": 334
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1812317,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3385500771587864e+16,
+                "num_nodes_pref": 8,
+                "id": 335
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1828618,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.292470220858175e+16,
+                "num_nodes_pref": 8,
+                "id": 336
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1855926,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.393767508641685e+16,
+                "num_nodes_pref": 8,
+                "id": 337
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1859694,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3326791366750284e+16,
+                "num_nodes_pref": 8,
+                "id": 338
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1863973,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 485.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.331570938623199e+16,
+                "num_nodes_pref": 8,
+                "id": 339
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1864058,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 325.0,
+                "parallel_percentage": 0.95,
+                "flops": 3910971642079567.5,
+                "num_nodes_pref": 2,
+                "id": 340
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1874780,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 404.0,
+                "parallel_percentage": 0.95,
+                "flops": 9710874726597610.0,
+                "num_nodes_pref": 4,
+                "id": 341
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1876427,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9131904328373354.0,
+                "num_nodes_pref": 4,
+                "id": 342
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1881254,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0028398986733922e+16,
+                "num_nodes_pref": 4,
+                "id": 343
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1887522,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 479.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.301935946081182e+16,
+                "num_nodes_pref": 8,
+                "id": 344
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1890372,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 504.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.4211267830967548e+16,
+                "num_nodes_pref": 8,
+                "id": 345
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1899144,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 261.0,
+                "parallel_percentage": 0.95,
+                "flops": 3138852113727920.0,
+                "num_nodes_pref": 2,
+                "id": 346
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1903817,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3762830659568064e+16,
+                "num_nodes_pref": 8,
+                "id": 347
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1904631,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 420.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0102139722992194e+16,
+                "num_nodes_pref": 4,
+                "id": 348
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1919630,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 477.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.293275915767172e+16,
+                "num_nodes_pref": 8,
+                "id": 349
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1923494,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 343.0,
+                "parallel_percentage": 0.95,
+                "flops": 4124687593664425.0,
+                "num_nodes_pref": 2,
+                "id": 350
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1925085,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.292974786585531e+16,
+                "num_nodes_pref": 8,
+                "id": 351
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1932559,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 489.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.347583091983228e+16,
+                "num_nodes_pref": 8,
+                "id": 352
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1932684,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0081062015423922e+16,
+                "num_nodes_pref": 4,
+                "id": 353
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1936908,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3450286414620056e+16,
+                "num_nodes_pref": 8,
+                "id": 354
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1951589,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 432.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0374586390332522e+16,
+                "num_nodes_pref": 4,
+                "id": 355
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1955459,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3061203413851956e+16,
+                "num_nodes_pref": 8,
+                "id": 356
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1957770,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 254.0,
+                "parallel_percentage": 0.95,
+                "flops": 3053509377014901.5,
+                "num_nodes_pref": 2,
+                "id": 357
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1965167,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2788048757511308e+16,
+                "num_nodes_pref": 8,
+                "id": 358
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1973970,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 474.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2779182437451004e+16,
+                "num_nodes_pref": 8,
+                "id": 359
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1978602,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2704757658128108e+16,
+                "num_nodes_pref": 8,
+                "id": 360
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 1979280,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 482.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3161592177125484e+16,
+                "num_nodes_pref": 8,
+                "id": 361
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1984442,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3581787597443656e+16,
+                "num_nodes_pref": 8,
+                "id": 362
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 1988355,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9658020063093816.0,
+                "num_nodes_pref": 4,
+                "id": 363
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1992241,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 482.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3155157579426972e+16,
+                "num_nodes_pref": 8,
+                "id": 364
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 1999544,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 424.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0190528219162666e+16,
+                "num_nodes_pref": 4,
+                "id": 365
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2007865,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 417.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0028101912060138e+16,
+                "num_nodes_pref": 4,
+                "id": 366
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2011661,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 478.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2975241413515904e+16,
+                "num_nodes_pref": 8,
+                "id": 367
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2015838,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3130685830325684e+16,
+                "num_nodes_pref": 8,
+                "id": 368
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2028140,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.36884276073266e+16,
+                "num_nodes_pref": 8,
+                "id": 369
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2034566,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9691172307205786.0,
+                "num_nodes_pref": 4,
+                "id": 370
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2040831,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.380852727566982e+16,
+                "num_nodes_pref": 8,
+                "id": 371
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2050005,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 239.0,
+                "parallel_percentage": 0.95,
+                "flops": 2876575636324534.0,
+                "num_nodes_pref": 2,
+                "id": 372
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2053449,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.334858066610503e+16,
+                "num_nodes_pref": 8,
+                "id": 373
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2053973,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0328865920151886e+16,
+                "num_nodes_pref": 4,
+                "id": 374
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2054267,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2825853213274024e+16,
+                "num_nodes_pref": 8,
+                "id": 375
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2063097,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9632691227227432.0,
+                "num_nodes_pref": 4,
+                "id": 376
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2070662,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 378.0,
+                "parallel_percentage": 0.95,
+                "flops": 9082437081570776.0,
+                "num_nodes_pref": 4,
+                "id": 377
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2073102,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3712299160783756e+16,
+                "num_nodes_pref": 8,
+                "id": 378
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2085810,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.320225192856478e+16,
+                "num_nodes_pref": 8,
+                "id": 379
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2089637,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0184682645755174e+16,
+                "num_nodes_pref": 4,
+                "id": 380
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2090293,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3167137079034193.0,
+                "num_nodes_pref": 2,
+                "id": 381
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2094320,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 3950143644334233.0,
+                "num_nodes_pref": 2,
+                "id": 382
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2096649,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 396.0,
+                "parallel_percentage": 0.95,
+                "flops": 9507728045189468.0,
+                "num_nodes_pref": 4,
+                "id": 383
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2098476,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 17.0,
+                "parallel_percentage": 0.95,
+                "flops": 106628835460603.23,
+                "num_nodes_pref": 1,
+                "id": 384
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2112249,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 486.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3356536495500176e+16,
+                "num_nodes_pref": 8,
+                "id": 385
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2118617,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 475.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.283491292822581e+16,
+                "num_nodes_pref": 8,
+                "id": 386
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2120218,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 481.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.311403327504812e+16,
+                "num_nodes_pref": 8,
+                "id": 387
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2123698,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 472.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2675342567748156e+16,
+                "num_nodes_pref": 8,
+                "id": 388
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2125283,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 484.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.326674199083154e+16,
+                "num_nodes_pref": 8,
+                "id": 389
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2135142,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 390
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2144822,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 4086515175740531.5,
+                "num_nodes_pref": 2,
+                "id": 391
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2156864,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 483.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3201361134290212e+16,
+                "num_nodes_pref": 8,
+                "id": 392
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2161684,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0220571416230988e+16,
+                "num_nodes_pref": 4,
+                "id": 393
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2162045,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 482.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.316523634506522e+16,
+                "num_nodes_pref": 8,
+                "id": 394
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2168271,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.356752791820705e+16,
+                "num_nodes_pref": 8,
+                "id": 395
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2172989,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0305339919756128e+16,
+                "num_nodes_pref": 4,
+                "id": 396
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2173095,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 474.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.2785999632770796e+16,
+                "num_nodes_pref": 8,
+                "id": 397
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2186292,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3220161749282148e+16,
+                "num_nodes_pref": 8,
+                "id": 398
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2195627,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 210.0,
+                "parallel_percentage": 0.95,
+                "flops": 2526288085952407.0,
+                "num_nodes_pref": 2,
+                "id": 399
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2200151,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.314075199103293e+16,
+                "num_nodes_pref": 8,
+                "id": 400
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2210256,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0158405519542108e+16,
+                "num_nodes_pref": 4,
+                "id": 401
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2217270,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 429.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0317226433504782e+16,
+                "num_nodes_pref": 4,
+                "id": 402
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2217974,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 9652571396752430.0,
+                "num_nodes_pref": 4,
+                "id": 403
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2219495,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 480.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3052772896205204e+16,
+                "num_nodes_pref": 8,
+                "id": 404
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2221266,
+            "num_nodes_min": 1,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 17.0,
+                "parallel_percentage": 0.95,
+                "flops": 106908081711073.86,
+                "num_nodes_pref": 1,
+                "id": 405
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2221440,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.000483975871164e+16,
+                "num_nodes_pref": 4,
+                "id": 406
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2234352,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 476.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.284829096556677e+16,
+                "num_nodes_pref": 8,
+                "id": 407
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2238440,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 481.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.312759326804207e+16,
+                "num_nodes_pref": 8,
+                "id": 408
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2239588,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 489.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.348101354645203e+16,
+                "num_nodes_pref": 8,
+                "id": 409
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2242038,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 1.0934126534939574e+16,
+                "num_nodes_pref": 4,
+                "id": 410
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2242241,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 465830674596317.06,
+                "num_nodes_pref": 1,
+                "id": 411
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2247827,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 392.0,
+                "parallel_percentage": 0.95,
+                "flops": 9425386528002948.0,
+                "num_nodes_pref": 4,
+                "id": 412
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2248696,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.393901257933738e+16,
+                "num_nodes_pref": 8,
+                "id": 413
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2250562,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3148151980619336e+16,
+                "num_nodes_pref": 8,
+                "id": 414
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2253398,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 403.0,
+                "parallel_percentage": 0.95,
+                "flops": 9685209166898978.0,
+                "num_nodes_pref": 4,
+                "id": 415
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2253704,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3598148647961596e+16,
+                "num_nodes_pref": 8,
+                "id": 416
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2260288,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3120996720184864e+16,
+                "num_nodes_pref": 8,
+                "id": 417
+            }
+        },
+        {
+            "type": "MALLEABLE",
+            "submit_time": 2271999,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 413.0,
+                "parallel_percentage": 0.95,
+                "flops": 9929637584979902.0,
+                "num_nodes_pref": 4,
+                "id": 418
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2286147,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3105152990790696e+16,
+                "num_nodes_pref": 8,
+                "id": 419
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2288561,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 2924650912176158.0,
+                "num_nodes_pref": 2,
+                "id": 420
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2289134,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3226872664882012e+16,
+                "num_nodes_pref": 8,
+                "id": 421
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2290408,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 490.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.3530338275183572e+16,
+                "num_nodes_pref": 8,
+                "id": 422
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2293488,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 478.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.29809246937714e+16,
+                "num_nodes_pref": 8,
+                "id": 423
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2295521,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 734509098031028.4,
+                "num_nodes_pref": 1,
+                "id": 424
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2298336,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3235430650231984e+16,
+                "num_nodes_pref": 8,
+                "id": 425
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2302025,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.2588520045498932e+16,
+                "num_nodes_pref": 8,
+                "id": 426
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2307000,
+            "num_nodes": 1,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.95,
+                "flops": 10000000000000,
+                "num_nodes_pref": 1,
+                "id": 427
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2310296,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 485.0,
+                "parallel_percentage": 0.965,
+                "flops": 2.328100942450913e+16,
+                "num_nodes_pref": 8,
+                "id": 428
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 2311665,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 1,
+                "parallel_percentage": 0.965,
+                "flops": 2.3351085459077584e+16,
+                "num_nodes_pref": 8,
+                "id": 429
+            }
+        },
+        {
+            "type": "MOLDABLE",
+            "submit_time": 2313367,
+            "num_nodes_min": 2,
+            "num_nodes_max": 16,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "divide": 424.0,
+                "parallel_percentage": 0.95,
+                "flops": 1.0179197202307696e+16,
+                "num_nodes_pref": 4,
+                "id": 430
+            }
+        }
+    ]
+}

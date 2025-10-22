@@ -48,8 +48,8 @@ def generate_configuration(
     schedule_on_job_submit=True,
     schedule_on_job_finalize=True,
     schedule_on_scheduling_point=True,
-    sensing=False,
-    sensing_interval=60,
+    sensing=True,
+    sensing_interval=1,
 ):
     conf = {
         "scheduling_interval": scheduling_interval,
